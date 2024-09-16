@@ -1,0 +1,5 @@
+MATH_GRADE = eval(input("Math Grade:"))
+ENGLISH_GRADE = eval(input("English Grade:"))
+COMPUTER_GRADE = eval(input("Computer Grade:"))
+print("grade total:",MATH_GRADE+ENGLISH_GRADE+COMPUTER_GRADE)
+print("grade avange:",(MATH_GRADE+ENGLISH_GRADE+COMPUTER_GRADE)/3)
